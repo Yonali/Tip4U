@@ -1,0 +1,37 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 157 ciObject found
+ciMethod java/lang/String <init> ([CII)V 1961 1 5428 0 -1
+ciMethod java/lang/String codePointAt (I)I 241 1 5165 0 -1
+ciMethod java/lang/String startsWith (Ljava/lang/String;I)Z 2137 7337 4581 0 416
+ciMethod java/lang/String endsWith (Ljava/lang/String;)Z 2089 1 18685 0 0
+ciMethod java/lang/String toUpperCase (Ljava/util/Locale;)Ljava/lang/String; 585 13353 730 0 -1
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 5121 1 640 0 -1
+ciMethod java/util/Map put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/Character charCount (I)I 449 1 9302 0 -1
+ciMethod java/lang/Character toChars (I[CI)I 0 0 1 0 -1
+ciMethod java/lang/Character toChars (I)[C 0 0 1 0 -1
+ciMethod java/lang/Character toUpperCaseEx (I)I 2329 1 26730 0 -1
+ciMethod java/lang/Character toUpperCaseCharArray (I)[C 0 0 1 0 -1
+ciMethod java/util/Locale getLanguage ()Ljava/lang/String; 337 1 1291 0 -1
+ciMethod sun/misc/URLClassPath$JarLoader access$700 (Lsun/misc/URLClassPath$JarLoader;)Ljava/util/jar/JarFile; 1025 1 128 0 0
+ciMethod java/util/zip/ZipFile getEntry (J[BZ)J 2049 1 256 0 -1
+ciMethod java/util/zip/ZipFile getInputStream (Ljava/util/zip/ZipEntry;)Ljava/io/InputStream; 2049 1 5405 0 8928
+ciMethod java/util/zip/ZipFile getInflater ()Ljava/util/zip/Inflater; 2049 1 5400 0 -1
+ciMethod java/util/zip/ZipFile ensureOpen ()V 2049 1 6400 0 -1
+ciMethod java/util/zip/ZipFile getEntrySize (J)J 2049 1 256 0 -1
+ciMethod java/util/zip/ZipFile getEntryMethod (J)I 2049 1 256 0 -1
+ciMethod java/util/jar/JarFile getManifest ()Ljava/util/jar/Manifest; 729 1 3142 0 -1
+ciMethod java/util/jar/JarFile getMetaInfEntryNames ()[Ljava/lang/String; 1289 1 161 0 -1
+ciMethod java/util/jar/JarFile maybeInstantiateVerifier ()V 2049 497 5397 0 1024
+ciMethod java/util/jar/JarFile initializeVerifier ()V 17 33 2 0 -1
+ciMethod java/util/jar/JarFile getInputStream (Ljava/util/zip/ZipEntry;)Ljava/io/InputStream; 2049 1 5712 0 0
+ciMethod java/util/zip/ZipCoder getBytes (Ljava/lang/String;)[B 2049 1 6400 0 -1
+ciMethod java/util/zip/ZipCoder getBytesUTF8 (Ljava/lang/String;)[B 0 0 1 0 -1
+ciMethod java/util/zip/ZipCoder isUTF8 ()Z 1033 1 129 0 -1
+ciMethod java/util/zip/ZipFile$ZipFileInputStream <init> (Ljava/util/zip/ZipFile;J)V 2049 1 5382 0 -1
+ciMethod java/util/zip/ZipFile$ZipFileInflaterInputStream <init> (Ljava/util/zip/ZipFile;Ljava/util/zip/ZipFile$ZipFileInputStream;Ljava/util/zip/Inflater;I)V 2049 1 5401 0 -1
+ciMethod sun/misc/URLClassPath$JarLoader$2 getInputStream ()Ljava/io/InputStream; 4097 1 5632 0 -1
+ciMethodData java/lang/String startsWith (Ljava/lang/String;I)Z 2 14777 orig 264 88 29 159 90 0 0 0 0 248 77 36 23 0 0 0 0 176 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 149 3 0 0 209 134 0 0 33 177 1 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 13 0 2 0 0 0 128 0 0 0 255 255 255 255 7 0 25 0 0 0 0 0 data 16 0x190007 0xa 0x40 0x10d0 0x250007 0xffc 0x20 0xd4 0x2f0007 0x46f 0x40 0x3629 0x410007 0x2a9c 0xffffffffffffffe0 0xb8d oops 0
+ciMethodData java/lang/String endsWith (Ljava/lang/String;)Z 2 18685 orig 264 88 29 159 90 0 0 0 0 48 79 36 23 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 1 0 0 193 63 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 13 0 0 0 0 0 data 6 0xd0005 0x0 0x2ecaaa0 0x47f8 0x0 0x0 oops 1
